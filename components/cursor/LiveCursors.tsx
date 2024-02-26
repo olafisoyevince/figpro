@@ -2,7 +2,7 @@ import { LiveCursorProps } from "@/types/type";
 import Cursor from "./Cursor";
 import { COLORS } from "@/constants";
 
-const LiveCusors = ({ others }: LiveCursorProps) => {
+const LiveCursors = ({ others }: LiveCursorProps) => {
     return others.map(({ connectionId, presence }) => {
         if (!presence?.cursor) return null;
 
@@ -18,4 +18,4 @@ const LiveCusors = ({ others }: LiveCursorProps) => {
     });
 };
 
-export default LiveCusors;
+export default LiveCursors;
