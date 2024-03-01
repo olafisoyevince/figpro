@@ -170,9 +170,7 @@ const Live = () => {
             onPointerDown={handlePointerDown}
             onPointerUp={handlePointerUp}
         >
-            <div>
-                <h1 className=" text-2xl text-white">Figpro</h1>
-            </div>
+            <canvas />
 
             {reaction.map((r) => (
                 <FlyingReaction

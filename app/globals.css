@@ -5,7 +5,7 @@
 @import "@liveblocks/react-comments/styles.css";
 
 * {
-    font-family: work sans, sans-serif;
+    font-family: "Satoshi", sans-serif;
 }
 
 @layer utilities {
